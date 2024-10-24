@@ -11,7 +11,7 @@
 
 - 🌱 Saya masih mempelajari **MUI, React**
 
-- 👨‍💻 Portfolio Saya [www.tians-dev.my.id](www.tians-dev.my.id)
+- 👨‍💻 Portfolio Saya [tians-dev.my.id](https://tians-dev.my.id)
 
 - 💬 Silahkan bertanya tentang **HTML, CSS, Javascript,Tailwind, Bootstrap, PHP, Laravel**
 
