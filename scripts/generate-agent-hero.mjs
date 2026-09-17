@@ -19,31 +19,27 @@ const portraitFilter = [
 ].join(",");
 
 function buildProfileLines(projects) {
-  const shortNames = {
-    "Nova AI Wallet": "Nova AI"
-  };
-
   return [
-    { type: "header", value: "wildan@build" },
-    { type: "row", key: "Name", value: "Wildan Syukri Niam" },
-    { type: "row", key: "Role", value: "Full-Stack Builder" },
-    { type: "row", key: "Based", value: "Bandung, Indonesia" },
-    { type: "row", key: "Mode", value: "Designing / Building / Shipping" },
+    { type: "header", value: "tianus@build" },
+    { type: "row", key: "Name", value: "Tianus Sembiring Milala" },
+    { type: "row", key: "Role", value: "Backend Developer" },
+    { type: "row", key: "Based", value: "Jakarta, Indonesia" },
+    { type: "row", key: "Mode", value: "Building / Shipping / Scaling" },
     { type: "blank" },
     { type: "section", value: "BUILD.FOCUS" },
-    { type: "row", key: "Product", value: "Idea to working release" },
-    { type: "row", key: "AI", value: "Agents and tool use" },
-    { type: "row", key: "Web3", value: "Smart contracts and payments" },
-    { type: "row", key: "Quality", value: "Testing and reliability" },
+    { type: "row", key: "Backend", value: "Laravel, REST APIs, Optimization" },
+    { type: "row", key: "Full-Stack", value: "Svelte, Tailwind, Integration" },
+    { type: "row", key: "Database", value: "MySQL, PostgreSQL, Scaling" },
+    { type: "row", key: "Mobile", value: "Android, Google Play Deploy" },
     { type: "blank" },
     { type: "section", value: "SELECTED.WORK" },
     ...projects.map((project) => ({
       type: "row",
-      key: shortNames[project.name] ?? project.name,
+      key: project.name,
       value: project.focus
     })),
     { type: "blank" },
-    { type: "footer", value: "FROM IDEA TO WORKING PRODUCT" }
+    { type: "footer", value: "FROM CONCEPT TO PRODUCTION" }
   ];
 }
 
@@ -302,8 +298,8 @@ function createHeroSvg(mode, size, portrait, profileLines) {
   const liveX = titlebar.x + titlebar.width - (isDesktop ? 138 : 94);
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${layout.width}" height="${layout.height}" viewBox="0 0 ${layout.width} ${layout.height}" role="img" aria-labelledby="title description">
-<title id="title">Wildan Syukri Niam - Full-Stack Builder</title>
-<desc id="description">A builder profile card with Wildan's high-contrast ASCII portrait, product focus, and selected work.</desc>
+<title id="title">Tianus Sembiring Milala - Backend Developer</title>
+<desc id="description">A backend developer profile card with Tianus's ASCII portrait, technical focus, and selected work.</desc>
 <defs>
   <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.backgroundStart}"/><stop offset="1" stop-color="${colors.backgroundEnd}"/></linearGradient>
   <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.portraitStart}"/><stop offset="1" stop-color="${colors.portraitEnd}"/></linearGradient>
@@ -343,16 +339,16 @@ function createHeroSvg(mode, size, portrait, profileLines) {
 <circle cx="${titlebar.x + 21}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.cyan}" opacity="0.88"/>
 <circle cx="${titlebar.x + 39}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.violet}" opacity="0.7"/>
 <circle cx="${titlebar.x + 57}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.green}" opacity="0.78"/>
-<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">wildan@build ~ % ./profile</text>
+<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">tianus@build ~ % ./profile</text>
 ${isDesktop ? `<circle cx="${liveX}" cy="${titlebar.y + titlebar.height / 2}" r="4" fill="${colors.red}"/><text x="${liveX + 10}" y="${titlebar.y + titlebar.height / 2 + 4}" class="live-label">BUILDING</text>` : ""}
 <rect x="${visual.x}" y="${visual.y}" width="${visual.width}" height="${visual.height}" rx="${visual.radius}" fill="${colors.panel}" fill-opacity="0.38" stroke="url(#border)" stroke-opacity="0.42"/>
 <rect x="${info.x}" y="${info.y}" width="${info.width}" height="${info.height}" rx="${info.radius}" fill="${colors.panel}" fill-opacity="0.42" stroke="url(#border)" stroke-opacity="0.42"/>
-<text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">PORTRAIT / WILDAN</text>
-<text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">PROFILE / BUILDER</text>
+<text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">PORTRAIT / TIANUS</text>
+<text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">PROFILE / BACKEND DEVELOPER</text>
 ${ambientPortrait}
 <g clip-path="url(#portrait-clip)"><text class="ascii" fill="${colors.cyan}" font-family="'Courier New', Consolas, monospace" font-size="${layout.portrait.fontSize}px" letter-spacing="-0.15px">${ascii}</text></g>
 ${system}
-<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">PRODUCT ENGINEERING / AI AGENTS / WEB3 / DEVELOPER TOOLS</text>
+<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">BACKEND ENGINEERING / FULL-STACK / DEVELOPER TOOLS</text>
 <rect class="motion-scan" x="0" y="-70" width="${layout.width}" height="70" fill="url(#scan)" opacity="0.42" style="mix-blend-mode:${colors.scanBlend}"/>
 <rect x="3" y="3" width="${layout.width - 6}" height="${layout.height - 6}" rx="${layout.outerRadius - 2}" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"/>
 </svg>`;

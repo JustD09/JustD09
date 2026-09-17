@@ -1,57 +1,57 @@
 [
   {
-    "name": "Fradium",
-    "repo": "fradiumofficial/fradium",
-    "url": "https://github.com/fradiumofficial/fradium",
-    "homepage": "https://fradium.io",
-    "role": "Team Lead · Full-Stack Developer",
-    "status": "Public Beta",
-    "focus": "Web3 address risk",
-    "summary": "Surfaces address risk before a user sends funds by combining AI output with community signals.",
-    "tags": ["Web3 Trust", "On-chain Intelligence", "Applied AI", "Internet Computer", "Motoko", "Rust"]
+    "name": "Admin KUBUKU",
+    "repo": "JustD09/admin-kubuku",
+    "url": "https://play.google.com/store/apps/details?id=id.kubuku.newperpus",
+    "homepage": "https://play.google.com/store/apps/details?id=id.kubuku.newperpus",
+    "role": "Backend Developer",
+    "status": "Live · Google Play",
+    "focus": "Android Library on Google Play",
+    "summary": "Android library management system deployed on Google Play Store with Laravel backend.",
+    "tags": ["Android", "Library System", "Laravel", "REST API", "MySQL"]
   },
   {
-    "name": "PayGate",
-    "repo": "wildanniam/paygate-stellar",
-    "url": "https://github.com/wildanniam/paygate-stellar",
-    "homepage": "https://trypaygate.com",
-    "role": "Founder · Builder",
-    "status": "Stellar Testnet Beta",
-    "focus": "Agentic API payments",
-    "summary": "Lets machine clients pay for individual API requests through HTTP 402 and Stellar testnet.",
-    "tags": ["Agentic Payments", "API Infrastructure", "Stellar", "Soroban", "TypeScript", "Rust"]
-  },
-  {
-    "name": "Nova AI Wallet",
-    "repo": "OfficialNovaAI/nova-wallet",
-    "url": "https://github.com/OfficialNovaAI/nova-wallet",
-    "homepage": "https://nova-wallet-puce.vercel.app",
-    "role": "Team Lead · AI Engineer",
-    "status": "Public Prototype · Degraded",
-    "focus": "AI wallet orchestration",
-    "summary": "Turns wallet intent into clear actions while the connected wallet keeps final signing.",
-    "tags": ["AI Agents", "Wallet Intelligence", "Human-in-the-loop", "Next.js", "TypeScript"]
-  },
-  {
-    "name": "SpecHeal",
-    "repo": "antech2-async/SpecHeal",
-    "url": "https://github.com/antech2-async/SpecHeal",
+    "name": "K-Means Laravel",
+    "repo": "JustD09/Website-K-Means-Laravel",
+    "url": "https://github.com/JustD09/Website-K-Means-Laravel",
     "homepage": null,
-    "role": "Team Lead · Full-Stack & Product Developer",
-    "status": "Hackathon Prototype · Offline",
-    "focus": "AI-assisted test recovery",
-    "summary": "Helps teams distinguish safe selector recovery from real product bugs before applying a controlled repair.",
-    "tags": ["AI-assisted Development", "Software Reliability", "Playwright", "Next.js", "TypeScript"]
+    "role": "Full-Stack Developer",
+    "status": "Active",
+    "focus": "Clustering with Laravel",
+    "summary": "Infrastructure analysis system with K-Means clustering algorithm and Laravel backend.",
+    "tags": ["Laravel", "K-Means", "Clustering", "Data Analysis", "MySQL"]
   },
   {
-    "name": "Quorum",
-    "repo": "wildanniam/Quorum",
-    "url": "https://github.com/wildanniam/Quorum",
-    "homepage": "https://quorum-sandy-eight.vercel.app",
-    "role": "Team Lead · Full-Stack & Smart Contract Engineer",
-    "status": "Active Stellar Testnet Build",
-    "focus": "Collaborative event settlement",
-    "summary": "Connects event checkout, collaborator splits, wallet-bound passes, gated resources, and withdrawals on Stellar testnet.",
-    "tags": ["Smart Contracts", "Event Settlement", "Stellar", "Soroban", "Next.js", "Rust"]
+    "name": "Portfolio Web",
+    "repo": "JustD09/portfolio-web-ts",
+    "url": "https://github.com/JustD09/portfolio-web-ts",
+    "homepage": "https://tians4dev.netlify.app",
+    "role": "Full-Stack Developer",
+    "status": "Live · Active",
+    "focus": "TypeScript, Svelte, Netlify",
+    "summary": "Personal portfolio built with TypeScript, Svelte, and Tailwind CSS showcasing projects.",
+    "tags": ["TypeScript", "Svelte", "Portfolio", "Netlify", "Tailwind"]
+  },
+  {
+    "name": "API Design",
+    "repo": "JustD09/api-optimization",
+    "url": "https://github.com/JustD09",
+    "homepage": null,
+    "role": "Backend Developer",
+    "status": "Ongoing",
+    "focus": "RESTful, Validation, Quality",
+    "summary": "RESTful API architecture with proper validation, error handling, and performance optimization.",
+    "tags": ["REST API", "Validation", "Performance", "PHP", "Laravel"]
+  },
+  {
+    "name": "DB Optimization",
+    "repo": "JustD09/db-optimization",
+    "url": "https://github.com/JustD09",
+    "homepage": null,
+    "role": "Backend Developer",
+    "status": "Active",
+    "focus": "MySQL, PostgreSQL, Scaling",
+    "summary": "Database design and optimization with MySQL and PostgreSQL scaling strategies.",
+    "tags": ["MySQL", "PostgreSQL", "Database", "Optimization", "Scaling"]
   }
 ]
