@@ -3,12 +3,12 @@
   <!-- Background -->
   <defs>
     <style>
-      .terminal { font-family: 'Courier New', 'Monaco', monospace; font-size: 11px; }
-      .header-text { font-family: 'Courier New', 'Monaco', monospace; font-size: 13px; font-weight: bold; }
-      .label { fill: #8b4513; font-weight: bold; }
+      .terminal { font-family: 'Courier New', 'Monaco', monospace; font-size: 9px; line-height: 1.2; }
+      .header-text { font-family: 'Courier New', 'Monaco', monospace; font-size: 12px; font-weight: bold; }
+      .label { fill: #a0522d; font-weight: bold; }
       .value { fill: #2c2c2c; }
-      .accent { fill: #a0522d; }
-      .dots { fill: #8b7355; letter-spacing: 1px; }
+      .accent { fill: #8b4513; }
+      .dots { fill: #b8a68f; letter-spacing: 0.5px; }
     </style>
   </defs>
   
@@ -18,81 +18,91 @@
   <rect x="15" y="15" width="1170" height="370" fill="none" stroke="#8b7355" stroke-width="2" rx="8"/>
   
   <!-- Top chrome -->
-  <ellipse cx="40" cy="28" rx="6" ry="6" fill="#cd5c5c"/>
-  <ellipse cx="65" cy="28" rx="6" ry="6" fill="#f0e68c"/>
-  <ellipse cx="90" cy="28" rx="6" ry="6" fill="#90ee90"/>
+  <circle cx="40" cy="28" r="6" fill="#cd5c5c"/>
+  <circle cx="65" cy="28" r="6" fill="#f0e68c"/>
+  <circle cx="90" cy="28" r="6" fill="#90ee90"/>
   
-  <!-- Left panel background -->
+  <!-- Left panel -->
   <rect x="30" y="45" width="460" height="335" fill="#faf6f0" stroke="#d4a574" stroke-width="1" rx="4"/>
   
-  <!-- Right panel background -->
+  <!-- Right panel -->
   <rect x="510" y="45" width="660" height="335" fill="#faf6f0" stroke="#d4a574" stroke-width="1" rx="4"/>
   
   <!-- Left panel title -->
-  <text x="50" y="65" class="header-text label">PORTRAIT / TIANUS</text>
+  <text x="50" y="62" class="header-text label">PORTRAIT / TIANUS</text>
   
   <!-- ASCII Art Portrait -->
-  <text x="120" y="110" class="terminal accent">    ██████</text>
-  <text x="120" y="128" class="terminal accent">   ██ ● ██</text>
-  <text x="120" y="146" class="terminal accent">   ██████</text>
-  <text x="120" y="164" class="terminal accent">   ██ ▲ ██</text>
-  <text x="120" y="182" class="terminal accent">   ██   ██</text>
-  <text x="120" y="200" class="terminal accent">  ███████</text>
-  <text x="120" y="218" class="terminal accent">  ██     ██</text>
-  <text x="120" y="236" class="terminal accent">  ██     ██</text>
-  <text x="120" y="254" class="terminal accent">  ██     ██</text>
+  <text x="60" y="85" class="terminal accent">     ·▄▄▄▄·  </text>
+  <text x="60" y="95" class="terminal accent">   ▄█████████▄</text>
+  <text x="60" y="105" class="terminal accent">  ██▀· · ·▀██</text>
+  <text x="60" y="115" class="terminal accent">  ██ ● · ● ██</text>
+  <text x="60" y="125" class="terminal accent">  ██ ·   · ██</text>
+  <text x="60" y="135" class="terminal accent">  ██▄▀███▀▄██</text>
+  <text x="60" y="145" class="terminal accent">   ▀██████▀ </text>
+  <text x="60" y="155" class="terminal accent">    ▀█████▀ </text>
+  <text x="60" y="165" class="terminal accent">   ▀███████▀</text>
+  <text x="60" y="175" class="terminal accent">  ██·     ·██</text>
+  <text x="60" y="185" class="terminal accent">  ██ ····· ██</text>
+  <text x="60" y="195" class="terminal accent">  ███     ███</text>
+  <text x="60" y="205" class="terminal accent">  ████   ████</text>
+  <text x="60" y="215" class="terminal accent">   ███████ </text>
   
-  <!-- Right panel title -->
-  <text x="530" y="65" class="header-text label">PROFILE / BACKEND BUILDER</text>
+  <!-- Right panel header -->
+  <text x="530" y="62" class="header-text label">PROFILE / BACKEND DEVELOPER</text>
   
-  <!-- Divider line -->
-  <line x1="530" y1="75" x2="1150" y2="75" stroke="#d4a574" stroke-width="1" stroke-dasharray="2,2"/>
+  <!-- Dashed divider -->
+  <text x="530" y="75" class="terminal dots">─────────────────────────────────────────────</text>
   
-  <!-- Info Section 1 -->
-  <text x="540" y="100" class="terminal header-text label">tianus@jakarta</text>
+  <!-- Info lines with dots -->
+  <text x="530" y="95" class="terminal label">Name:</text>
+  <text x="665" y="95" class="terminal dots">...........</text>
+  <text x="850" y="95" class="terminal value">Tianus Sembiring Milala</text>
   
-  <text x="540" y="125" class="terminal label">Name:</text>
-  <text x="730" class="dots">.................</text>
-  <text x="900" y="125" class="terminal value">Tianus Sembiring Milala</text>
+  <text x="530" y="110" class="terminal label">Role:</text>
+  <text x="665" y="110" class="terminal dots">...........</text>
+  <text x="850" y="110" class="terminal value">Backend Developer</text>
   
-  <text x="540" y="145" class="terminal label">Role:</text>
-  <text x="730" class="dots">.................</text>
-  <text x="900" y="145" class="terminal value">Backend Developer</text>
+  <text x="530" y="125" class="terminal label">Based:</text>
+  <text x="665" y="125" class="terminal dots">...........</text>
+  <text x="850" y="125" class="terminal value">Jakarta, Indonesia</text>
   
-  <text x="540" y="165" class="terminal label">Based:</text>
-  <text x="730" class="dots">................</text>
-  <text x="900" y="165" class="terminal value">Jakarta, Indonesia</text>
+  <text x="530" y="140" class="terminal label">Mode:</text>
+  <text x="665" y="140" class="terminal dots">...........</text>
+  <text x="850" y="140" class="terminal value">Building / Shipping / Optimizing</text>
   
-  <text x="540" y="185" class="terminal label">Mode:</text>
-  <text x="730" class="dots">.................</text>
-  <text x="900" y="185" class="terminal value">Building / Shipping / Scaling</text>
+  <!-- Build focus section -->
+  <text x="530" y="160" class="terminal label">- BUILD.FOCUS</text>
   
-  <!-- Build Focus Section -->
-  <text x="540" y="215" class="terminal header-text accent">- BUILD.FOCUS</text>
+  <text x="540" y="175" class="terminal label">Backend:</text>
+  <text x="665" y="175" class="terminal dots">......</text>
+  <text x="850" y="175" class="terminal value">Laravel, REST APIs, Optimization</text>
   
-  <text x="550" y="235" class="terminal label">Backend:</text>
-  <text x="760" class="dots">.........</text>
-  <text x="900" y="235" class="terminal value">Laravel, REST APIs, Optimization</text>
+  <text x="540" y="190" class="terminal label">Full-Stack:</text>
+  <text x="665" y="190" class="terminal dots">.....</text>
+  <text x="850" y="190" class="terminal value">Svelte, Tailwind, Integration</text>
   
-  <text x="550" y="255" class="terminal label">Full-Stack:</text>
-  <text x="760" class="dots">.....</text>
-  <text x="900" y="255" class="terminal value">Svelte, Tailwind, Integration</text>
+  <text x="540" y="205" class="terminal label">Database:</text>
+  <text x="665" y="205" class="terminal dots">.......</text>
+  <text x="850" y="205" class="terminal value">MySQL, PostgreSQL, Scaling</text>
   
-  <text x="550" y="275" class="terminal label">Database:</text>
-  <text x="760" class="dots">......</text>
-  <text x="900" y="275" class="terminal value">MySQL, PostgreSQL, Scaling</text>
+  <!-- Selected work section -->
+  <text x="530" y="230" class="terminal label">- SELECTED.WORK</text>
   
-  <!-- Selected Work Section -->
-  <text x="540" y="310" class="terminal header-text accent">- SELECTED.WORK</text>
+  <text x="540" y="245" class="terminal label">KUBUKU:</text>
+  <text x="665" y="245" class="terminal dots">......</text>
+  <text x="850" y="245" class="terminal value">Android Library on Play Store</text>
   
-  <text x="550" y="330" class="terminal label">KUBUKU:</text>
-  <text x="760" class="dots">......</text>
-  <text x="900" y="330" class="terminal value">Android App on Google Play</text>
+  <text x="540" y="260" class="terminal label">K-Means:</text>
+  <text x="665" y="260" class="terminal dots">......</text>
+  <text x="850" y="260" class="terminal value">Clustering with Laravel</text>
   
-  <text x="550" y="350" class="terminal label">K-Means:</text>
-  <text x="760" class="dots">.......</text>
-  <text x="900" y="350" class="terminal value">Laravel Clustering Analysis</text>
+  <text x="540" y="275" class="terminal label">Portfolio:</text>
+  <text x="665" y="275" class="terminal dots">.....</text>
+  <text x="850" y="275" class="terminal value">TypeScript, Svelte, Netlify</text>
   
   <!-- Footer -->
-  <text x="600" y="385" class="terminal accent" text-anchor="middle" font-style="italic">FROM CONCEPT TO PRODUCTION</text>
+  <text x="600" y="350" class="terminal accent" text-anchor="middle" font-size="10px">FROM CONCEPT TO PRODUCTION</text>
+  
+  <!-- Footer info -->
+  <text x="600" y="380" class="terminal label" text-anchor="middle" font-size="8px">BACKEND ENGINEERING / FULL-STACK / DEVELOPER TOOLS</text>
 </svg>
