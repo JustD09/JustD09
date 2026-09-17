@@ -23,7 +23,7 @@ function buildProfileLines(projects) {
     { type: "row", key: "Name", value: "Tianus Sembiring Milala" },
     { type: "row", key: "Role", value: "Backend Developer" },
     { type: "row", key: "Based", value: "Jakarta, Indonesia" },
-    { type: "row", key: "Mode", value: "Building / Shipping / Scaling" },
+    { type: "row", key: "Mode", value: "Developing / Staging / Production" },
     { type: "blank" },
     { type: "section", value: "BUILD.FOCUS" },
     { type: "row", key: "Backend", value: "Laravel, REST APIs, Optimization" },
