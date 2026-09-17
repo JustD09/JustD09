@@ -26,7 +26,7 @@ Currently exploring microservices architecture, API optimization, and production
 
 **Backend:** PHP · Laravel · Slim 4 · Node.js
 
-**Frontend:** Svelte · React · Tailwind CSS · TypeScript
+**Frontend:** Svelte · Tailwind CSS · FIlament
 
 **Database:** MySQL · PostgreSQL · Query Optimization
 
