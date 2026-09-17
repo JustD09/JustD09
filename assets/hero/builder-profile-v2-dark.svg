@@ -1,108 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <defs>
-    <style>
-      .terminal { font-family: 'Courier New', 'Monaco', monospace; font-size: 9px; line-height: 1.2; }
-      .header-text { font-family: 'Courier New', 'Monaco', monospace; font-size: 12px; font-weight: bold; }
-      .label { fill: #ff6b6b; font-weight: bold; }
-      .value { fill: #e0e0e0; }
-      .accent { fill: #ff8c42; }
-      .dots { fill: #666666; letter-spacing: 0.5px; }
-    </style>
-  </defs>
-  
-  <rect width="1200" height="400" fill="#1a1a1a"/>
-  
-  <!-- Outer border -->
-  <rect x="15" y="15" width="1170" height="370" fill="none" stroke="#444444" stroke-width="2" rx="8"/>
-  
-  <!-- Top chrome -->
-  <circle cx="40" cy="28" r="6" fill="#ff6b6b"/>
-  <circle cx="65" cy="28" r="6" fill="#ffd700"/>
-  <circle cx="90" cy="28" r="6" fill="#00ff00"/>
-  
-  <!-- Left panel -->
-  <rect x="30" y="45" width="460" height="335" fill="#0f0f0f" stroke="#333333" stroke-width="1" rx="4"/>
-  
-  <!-- Right panel -->
-  <rect x="510" y="45" width="660" height="335" fill="#0f0f0f" stroke="#333333" stroke-width="1" rx="4"/>
-  
-  <!-- Left panel title -->
-  <text x="50" y="62" class="header-text label">PORTRAIT / TIANUS</text>
-  
-  <!-- ASCII Art Portrait - detailed pixel face -->
-  <text x="60" y="85" class="terminal accent">     ·▄▄▄▄·  </text>
-  <text x="60" y="95" class="terminal accent">   ▄█████████▄</text>
-  <text x="60" y="105" class="terminal accent">  ██▀· · ·▀██</text>
-  <text x="60" y="115" class="terminal accent">  ██ ● · ● ██</text>
-  <text x="60" y="125" class="terminal accent">  ██ ·   · ██</text>
-  <text x="60" y="135" class="terminal accent">  ██▄▀███▀▄██</text>
-  <text x="60" y="145" class="terminal accent">   ▀██████▀ </text>
-  <text x="60" y="155" class="terminal accent">    ▀█████▀ </text>
-  <text x="60" y="165" class="terminal accent">   ▀███████▀</text>
-  <text x="60" y="175" class="terminal accent">  ██·     ·██</text>
-  <text x="60" y="185" class="terminal accent">  ██ ····· ██</text>
-  <text x="60" y="195" class="terminal accent">  ███     ███</text>
-  <text x="60" y="205" class="terminal accent">  ████   ████</text>
-  <text x="60" y="215" class="terminal accent">   ███████ </text>
-  
-  <!-- Right panel header -->
-  <text x="530" y="62" class="header-text label">PROFILE / BACKEND DEVELOPER</text>
-  
-  <!-- Dashed divider -->
-  <text x="530" y="75" class="terminal dots">─────────────────────────────────────────────</text>
-  
-  <!-- Info lines with dots -->
-  <text x="530" y="95" class="terminal label">Name:</text>
-  <text x="665" y="95" class="terminal dots">...........</text>
-  <text x="850" y="95" class="terminal value">Tianus Sembiring Milala</text>
-  
-  <text x="530" y="110" class="terminal label">Role:</text>
-  <text x="665" y="110" class="terminal dots">...........</text>
-  <text x="850" y="110" class="terminal value">Backend Developer</text>
-  
-  <text x="530" y="125" class="terminal label">Based:</text>
-  <text x="665" y="125" class="terminal dots">...........</text>
-  <text x="850" y="125" class="terminal value">Jakarta, Indonesia</text>
-  
-  <text x="530" y="140" class="terminal label">Mode:</text>
-  <text x="665" y="140" class="terminal dots">...........</text>
-  <text x="850" y="140" class="terminal value">Building / Shipping / Optimizing</text>
-  
-  <!-- Build focus section -->
-  <text x="530" y="160" class="terminal label">- BUILD.FOCUS</text>
-  
-  <text x="540" y="175" class="terminal label">Backend:</text>
-  <text x="665" y="175" class="terminal dots">......</text>
-  <text x="850" y="175" class="terminal value">Laravel, REST APIs, Optimization</text>
-  
-  <text x="540" y="190" class="terminal label">Full-Stack:</text>
-  <text x="665" y="190" class="terminal dots">.....</text>
-  <text x="850" y="190" class="terminal value">Svelte, Tailwind, Integration</text>
-  
-  <text x="540" y="205" class="terminal label">Database:</text>
-  <text x="665" y="205" class="terminal dots">.......</text>
-  <text x="850" y="205" class="terminal value">MySQL, PostgreSQL, Scaling</text>
-  
-  <!-- Selected work section -->
-  <text x="530" y="230" class="terminal label">- SELECTED.WORK</text>
-  
-  <text x="540" y="245" class="terminal label">KUBUKU:</text>
-  <text x="665" y="245" class="terminal dots">......</text>
-  <text x="850" y="245" class="terminal value">Android Library on Play Store</text>
-  
-  <text x="540" y="260" class="terminal label">K-Means:</text>
-  <text x="665" y="260" class="terminal dots">......</text>
-  <text x="850" y="260" class="terminal value">Clustering with Laravel</text>
-  
-  <text x="540" y="275" class="terminal label">Portfolio:</text>
-  <text x="665" y="275" class="terminal dots">.....</text>
-  <text x="850" y="275" class="terminal value">TypeScript, Svelte, Netlify</text>
-  
-  <!-- Footer -->
-  <text x="600" y="350" class="terminal accent" text-anchor="middle" font-size="10px">FROM CONCEPT TO PRODUCTION</text>
-  
-  <!-- Footer info -->
-  <text x="600" y="380" class="terminal label" text-anchor="middle" font-size="8px">BACKEND ENGINEERING / FULL-STACK / DEVELOPER TOOLS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title description">
+<title id="title">Tianus Sembiring Milala - Backend Developer</title>
+<desc id="description">A warm editorial profile card with Tianus's ASCII portrait, product focus, and selected work.</desc>
+<defs>
+  <linearGradient id="background-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F0F0F"/><stop offset="1" stop-color="#1A1A1A"/></linearGradient>
+  <linearGradient id="ascii-signal-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6B6B"/><stop offset="1" stop-color="#FF8C42"/></linearGradient>
+  <linearGradient id="border-dark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#444444"/><stop offset="0.48" stop-color="#FF6B6B"/><stop offset="1" stop-color="#00FF00"/></linearGradient>
+  <linearGradient id="scan-dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF6B6B" stop-opacity="0"/><stop offset="0.5" stop-color="#FF6B6B" stop-opacity="0.3"/><stop offset="1" stop-color="#FF8C42" stop-opacity="0"/></linearGradient>
+  <radialGradient id="portrait-halo-dark"><stop offset="0" stop-color="#FF6B6B" stop-opacity="0.1"/><stop offset="0.48" stop-color="#FF8C42" stop-opacity="0.04"/><stop offset="1" stop-color="#444444" stop-opacity="0"/></radialGradient>
+  <pattern id="scanlines-dark" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#FF6B6B" opacity="0.03"/></pattern>
+  <pattern id="portrait-grid-dark" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="#FF8C42" stroke-width="0.65" opacity="0.05"/><circle cx="0" cy="0" r="1.2" fill="#FF6B6B" opacity="0.08"/></pattern>
+  <clipPath id="portrait-clip-dark"><rect x="24" y="82" width="470" height="438" rx="12"/></clipPath>
+  <style>
+    .mono { font-family: 'Courier New', Consolas, monospace; }
+    .ascii-dark { font-family: 'Courier New', Consolas, monospace; font-size: 6.5px; letter-spacing: -0.15px; fill: url(#ascii-signal-dark); }
+    .panel-title-dark { font-family: 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 2px; fill: #FF6B6B; opacity: 0.9; }
+    .terminal-label-dark { font-family: 'Courier New', Consolas, monospace; font-size: 10px; letter-spacing: 0.5px; fill: #AAAAAA; }
+    .live-label-dark { font-family: 'Courier New', Consolas, monospace; font-size: 10px; letter-spacing: 1px; fill: #00FF00; }
+    .system-head-dark { font-family: 'Courier New', Consolas, monospace; font-size: 16px; font-weight: 700; }
+    .system-section-dark, .system-footer-dark, .system-row-dark { font-family: 'Courier New', Consolas, monospace; font-size: 14px; }
+    .system-section-dark, .system-key-dark { font-weight: 700; }
+    text, tspan { white-space: pre; }
+    .motion-orbit { transform-box: view-box; }
+    @keyframes orbit-forward { to { transform: rotate(360deg); } }
+    @keyframes orbit-backward { to { transform: rotate(-360deg); } }
+    @keyframes scan-sweep { from { transform: translateY(0); } to { transform: translateY(750px); } }
+    @media (prefers-reduced-motion: no-preference) {
+      .motion-orbit--forward { animation: orbit-forward 42s linear infinite; }
+      .motion-orbit--backward { animation: orbit-backward 34s linear infinite; }
+      .motion-scan { animation: scan-sweep 8s linear infinite; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .motion-scan { display: none; }
+    }
+  </style>
+</defs>
+<rect width="1180" height="610" rx="18" fill="url(#background-dark)"/>
+<rect width="1180" height="610" rx="18" fill="url(#scanlines-dark)"/>
+<rect x="3" y="3" width="1174" height="34" rx="16" fill="#222222" fill-opacity="0.8"/>
+<circle cx="24" cy="20" r="5" fill="#FF6B6B" opacity="0.9"/>
+<circle cx="42" cy="20" r="5" fill="#FFD700" opacity="0.8"/>
+<circle cx="60" cy="20" r="5" fill="#00FF00" opacity="0.8"/>
+<text x="590" y="25" text-anchor="middle" class="terminal-label-dark">tianus@build ~ % ./profile</text>
+<circle cx="1039" cy="20" r="4" fill="#FF6B6B"/><text x="1049" y="24" class="live-label-dark">BACKEND</text>
+<rect x="14" y="64" width="488" height="468" rx="14" fill="#1A1A1A" fill-opacity="0.6" stroke="url(#border-dark)" stroke-opacity="0.5"/>
+<rect x="508" y="48" width="655" height="500" rx="14" fill="#1A1A1A" fill-opacity="0.6" stroke="url(#border-dark)" stroke-opacity="0.5"/>
+<text x="30" y="62" class="panel-title-dark">PORTRAIT / TIANUS</text>
+<text x="524" y="62" class="panel-title-dark">PROFILE / BACKEND DEVELOPER</text>
+<g clip-path="url(#portrait-clip-dark)" class="ambient-map" aria-hidden="true">
+  <rect x="24" y="82" width="470" height="438" fill="url(#portrait-grid-dark)"/>
+  <ellipse cx="268.4" cy="292.2" rx="228.4" ry="137.2" fill="url(#portrait-halo-dark)"/>
+  <ellipse class="motion-orbit motion-orbit--forward" style="transform-origin:268.4px 292.2px" cx="268.4" cy="292.2" rx="211.5" ry="127.0" fill="none" stroke="#FF6B6B" stroke-width="1" stroke-dasharray="3 14" opacity="0.1"/>
+  <ellipse class="motion-orbit motion-orbit--backward" style="transform-origin:268.4px 292.2px" cx="268.4" cy="292.2" rx="169.2" ry="96.5" fill="none" stroke="#FF8C42" stroke-width="1" stroke-dasharray="28 24" opacity="0.08"/>
+  <path d="M 52 128 H 94 M 52 128 V 170 M 466 478 H 424 M 466 478 V 436" fill="none" stroke="#FF6B6B" stroke-width="1.2" opacity="0.15"/>
+  <path d="M 52 334.2 C 84.0 300.2, 141.5 350.2, 188.0 319.2" fill="none" stroke="#FF8C42" stroke-width="1" opacity="0.1"/>
+  <path d="M 466 240.2 C 428.0 274.2, 399.5 222.2, 353.0 262.2" fill="none" stroke="#00FF00" stroke-width="1" opacity="0.08"/>
+  <g fill="#FF6B6B">
+    <circle cx="52" cy="128" r="2.2" opacity="0.3"/>
+    <circle cx="466" cy="478" r="2.2" opacity="0.3"/>
+    <circle cx="64" cy="340.2" r="1.7" opacity="0.2"/>
+    <circle cx="456" cy="234.2" r="1.7" opacity="0.2"/>
+  </g>
+</g>
+<g clip-path="url(#portrait-clip-dark)"><text class="ascii-dark" fill="#FF6B6B" font-family="'Courier New', Consolas, monospace" font-size="6.5px" letter-spacing="-0.15px"><tspan x="78" y="110">  ████████  </tspan><tspan x="78" y="117">  ██ ● ██  </tspan><tspan x="78" y="124">  ████████  </tspan><tspan x="78" y="131">  ██ ▲ ██  </tspan><tspan x="78" y="138">  ██   ██  </tspan><tspan x="78" y="145">  ██████  </tspan><tspan x="78" y="152">  ████    </tspan><tspan x="78" y="159">  ██████  </tspan><tspan x="78" y="166">  ██████  </tspan><tspan x="78" y="173">  ██  ██  </tspan><tspan x="78" y="180">  ██████  </tspan><tspan x="78" y="187">  ███████  </tspan><tspan x="78" y="194">  ██████  </tspan><tspan x="78" y="201">  ████  </tspan></text></g>
+<text x="528" y="82" class="system-head-dark"><tspan fill="#FF6B6B">tianus@build</tspan><tspan fill="#AAAAAA"> ------------------------------------------</tspan></text>
+<text x="528" y="103.5" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Name</tspan><tspan fill="#AAAAAA">: .......... </tspan><tspan fill="#E0E0E0">Tianus Sembiring Milala</tspan></text>
+<text x="528" y="125" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Role</tspan><tspan fill="#AAAAAA">: .......... </tspan><tspan fill="#E0E0E0">Backend Developer</tspan></text>
+<text x="528" y="146.5" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Based</tspan><tspan fill="#AAAAAA">: ......... </tspan><tspan fill="#E0E0E0">Jakarta, Indonesia</tspan></text>
+<text x="528" y="168" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Mode</tspan><tspan fill="#AAAAAA">: .......... </tspan><tspan fill="#E0E0E0">Building / Shipping / Scaling</tspan></text>
+<text x="528" y="211" class="system-section-dark" fill="#00FF00">- BUILD.FOCUS -----------------------------------</text>
+<text x="528" y="232.5" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Backend</tspan><tspan fill="#AAAAAA">: ....... </tspan><tspan fill="#E0E0E0">Laravel, REST APIs, Optimization</tspan></text>
+<text x="528" y="254" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Full-Stack</tspan><tspan fill="#AAAAAA">: ...... </tspan><tspan fill="#E0E0E0">Svelte, Tailwind, Integration</tspan></text>
+<text x="528" y="275.5" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Database</tspan><tspan fill="#AAAAAA">: ....... </tspan><tspan fill="#E0E0E0">MySQL, PostgreSQL, Scaling</tspan></text>
+<text x="528" y="297" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Mobile</tspan><tspan fill="#AAAAAA">: ........... </tspan><tspan fill="#E0E0E0">Android, Google Play Deploy</tspan></text>
+<text x="528" y="340" class="system-section-dark" fill="#00FF00">- SELECTED.WORK -----------------------------------</text>
+<text x="528" y="361.5" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">KUBUKU</tspan><tspan fill="#AAAAAA">: ....... </tspan><tspan fill="#E0E0E0">Android Library on Play Store</tspan></text>
+<text x="528" y="383" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">K-Means</tspan><tspan fill="#AAAAAA">: ....... </tspan><tspan fill="#E0E0E0">Clustering with Laravel</tspan></text>
+<text x="528" y="404.5" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">Portfolio</tspan><tspan fill="#AAAAAA">: ...... </tspan><tspan fill="#E0E0E0">TypeScript, Svelte, Netlify</tspan></text>
+<text x="528" y="426" class="system-row-dark"><tspan fill="#AAAAAA">. </tspan><tspan class="system-key-dark" fill="#FF6B6B">API Design</tspan><tspan fill="#AAAAAA">: .... </tspan><tspan fill="#E0E0E0">RESTful, Validation, Quality</tspan></text>
+<text x="528" y="490.5" class="system-footer-dark" fill="#FF6B6B">FROM CONCEPT TO PRODUCTION</text>
+<text x="590" y="585" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="#AAAAAA">BACKEND ENGINEERING / FULL-STACK / DEVELOPER TOOLS</text>
+<rect class="motion-scan" x="0" y="-70" width="1180" height="70" fill="url(#scan-dark)" opacity="0.2" style="mix-blend-mode:multiply"/>
+<rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#border-dark)" stroke-width="2" opacity="0.7"/>
 </svg>
