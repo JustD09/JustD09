@@ -12,10 +12,10 @@ const outputDirectory = resolve(scriptDirectory, "../assets/hero");
 const featuredProjectsPath = resolve(scriptDirectory, "../data/featured-projects.json");
 
 const portraitFilter = [
-  "crop=1700:1900:800:1950",
+  "crop=580:820:70:80",
   "format=gray",
-  "eq=contrast=1.18:brightness=0.04:gamma=0.96",
-  "unsharp=3:3:0.35"
+  "eq=contrast=1.32:brightness=0.06:gamma=0.94",
+  "unsharp=5:5:0.8"
 ].join(",");
 
 function buildProfileLines(projects) {
