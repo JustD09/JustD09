@@ -30,9 +30,9 @@ Currently exploring microservices architecture, API optimization, and production
 
 **Database:** MySQL · PostgreSQL · Query Optimization
 
-**Tools & DevOps:** Git · GitHub · GitLab · Docker · Postman · HeidiSQL
+**Tools & DevOps:** Git · GitHub · GitLab · Postman · HeidiSQL
 
-**Mobile:** Android · Google Play Store
+**Mobile:** Flutter · Google Play Store
 
 ---
 
@@ -40,7 +40,7 @@ Currently exploring microservices architecture, API optimization, and production
 
 ### Admin Perpustakaan KUBUKU
 **Android library management system deployed on Google Play Store**
-- Full-stack development (Android + Laravel backend)
+- Full-stack development (Flutter + Slim 4 + MySQL)
 - Real-world production app with active users
 - Backend API integration & database design
 - [View on Play Store →](https://play.google.com/store/apps/details?id=id.kubuku.newperpus)
@@ -66,7 +66,6 @@ Currently exploring microservices architecture, API optimization, and production
 - **API Architecture:** Designing clean, scalable REST APIs with proper validation & error handling
 - **Database Optimization:** MySQL & PostgreSQL schema design, query optimization, indexing strategies
 - **Full-Stack Integration:** Seamless backend-frontend integration with modern frameworks
-- **Production Deployment:** Docker, CI/CD workflows, monitoring, and reliability
 - **Code Quality:** Clean code principles, testing, documentation, and maintainability
 
 ---
