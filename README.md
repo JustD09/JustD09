@@ -1,53 +1,56 @@
-<h1 align="center">Halo 👋, Saya Tianus</h1>
-<h3 align="center">Saya Junior Backend Developer di Indonesia</h3>
+# Tianus Sembiring Milala
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=justd09&label=Profile%20views&color=0e75b6&style=flat" alt="justd09" /> </p>
+**Backend Developer** based in Jakarta, Indonesia  
+Building with Laravel, React, and modern web technologies
 
-- ⚡Project 1 Laravel Saya [Laravel K-Means](https://github.com/JustD09/Website-K-Means-Laravel)
+---
 
-- ⚡Project 2 Laravel Saya [Laravel Kalkulasi Otomatis](https://github.com/JustD09/Website-Kalkulasi)
+## Hey, I'm Tianus
 
-- ⚡Project 3 Laravel Saya [Website Pengaduan Infrastruktur](https://github.com/JustD09/Website-Pengaduan-Berbasis-Laravel)
+I'm a **junior backend developer** based in Indonesia. I work across **Laravel applications, full-stack web development, and API architecture**, building scalable products and learning modern development practices.
 
-- 🌱 Saya masih mempelajari **MUI, React**
+I focus on taking projects from concept to deployment: defining structure, building backend systems, connecting frontend logic, and ensuring reliable execution.
 
-- 👨‍💻 Portfolio Saya [tians-dev.my.id](https://tians-dev.my.id)
+## What I Build
 
-- 💬 Silahkan bertanya tentang **HTML, CSS, Javascript,Tailwind, Bootstrap, PHP, Laravel**
+- **Backend systems:** Laravel applications, REST APIs, database architecture, and server optimization.
+- **Full-stack development:** Frontend integration with backend logic, form validation, and user authentication.
+- **Web infrastructure:** Database design with MySQL, caching strategies, and performance optimization.
+- **Developer tools:** Automation scripts, testing utilities, and development workflows.
 
-- 📫 Email saya **tianussembiringmilala@gmail.com**
+## Selected Work
 
-- ⚡ Fun fact **Saya sangat suka dengan sesuatu yang baru saya pelajari**
+| Project | What I built | Role · Status |
+|---------|-------------|---------------|
+| [**Laravel K-Means**](https://github.com/JustD09/Website-K-Means-Laravel) | Infrastructure analysis system with K-Means Clustering Algorithm | Developer · Complete |
+| [**Website Pengaduan**](https://github.com/JustD09/Website-Pengaduan-Berbasis-Laravel) | Road infrastructure complaint system with Laravel 10 | Full-Stack Developer · Active |
+| [**Kalkulasi Otomatis**](https://github.com/JustD09/Website-Kalkulasi) | Automated product weight calculation system for merchants | Developer · Complete |
+| [**Website Peminjaman**](https://github.com/JustD09/Website-Peminjaman) | Loan validation and approval management system | Developer · Complete |
+| [**SignIn and SignUp**](https://github.com/JustD09/SignIn-and-SignUp) | Authentication system using React | Frontend Developer · Complete |
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+## Current Focus
 
-<a href="https://linkedin.com/in/tianus sembiring milala" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tianus sembiring milala" height="30" width="40" /></a>
+I'm exploring:
+- **Backend optimization:** scaling Laravel applications for production
+- **API design:** building robust REST APIs with proper validation and error handling
+- **Frontend integration:** connecting React interfaces with Laravel backends
+- **Modern tools:** mastering MUI and advanced React patterns
 
-<a href="https://fb.com/tianus sembiring milala" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tianus sembiring milala" height="30" width="40" /></a>
+## Technologies
 
-<a href="https://instagram.com/alonelyguy_3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="alonelyguy_3" height="30" width="40" /></a>
-</p>
+`PHP` · `Laravel` · `Svelte` · `Material UI` · `HTML` · `CSS` · `Tailwind CSS` · `Bootstrap` · `MySQL` · `Git` · `Postman` · `Linux`
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> 
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> 
-<a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-<a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> 
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> 
-<a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> 
-</p>
+## Quick Stats
 
-<p>
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=justd09&show_icons=true&locale=en&layout=compact" alt="justd09" />
-</p>
+- **3 followers** · **2 following**
+- **8 repositories** across various projects
+- **Portfolio:** [tians4dev.netlify.app](https://tians4dev.netlify.app/)
+- **Email:** [tianussembiringmilala@gmail.com](mailto:tianussembiringmilala@gmail.com)
 
+## Connect With Me
+
+[![LinkedIn](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg)](https://linkedin.com/in/tianus-sembiring-milala) · [![Facebook](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg)](https://fb.com/tianus-sembiring-milala) · [![Instagram](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg)](https://instagram.com/alonelyguy_3)
+
+---
+
+**Learning, building, and growing as a backend developer.**
