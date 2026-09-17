@@ -12,10 +12,9 @@ const outputDirectory = resolve(scriptDirectory, "../assets/hero");
 const featuredProjectsPath = resolve(scriptDirectory, "../data/featured-projects.json");
 
 const portraitFilter = [
-  "crop=580:820:70:80",
   "format=gray",
-  "eq=contrast=1.32:brightness=0.06:gamma=0.94",
-  "unsharp=5:5:0.8"
+  "eq=contrast=1.38:brightness=0.08:gamma=0.92",
+  "unsharp=5:5:1.2"
 ].join(",");
 
 function buildProfileLines(projects) {
@@ -195,10 +194,8 @@ async function samplePortrait(sourcePath, columns, rows) {
     "ffmpeg",
     [
       "-v", "error",
-      "-f", "lavfi",
-      "-i", "color=c=white:s=3072x4096",
       "-i", sourcePath,
-      "-filter_complex", `[0:v][1:v]overlay=shortest=1:format=auto,${portraitFilter},scale=${columns}:${rows}`,
+      "-vf", `${portraitFilter},scale=${columns}:${rows}:flags=lanczos`,
       "-frames:v", "1",
       "-f", "image2pipe",
       "-vcodec", "pgm",
